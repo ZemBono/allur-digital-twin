@@ -6,6 +6,8 @@ The case: help the Allur car plant in Kostanay see its production line in real t
 
 > Team project. Original repository: [Aldiar-bsd/hakaton_project](https://github.com/Aldiar-bsd/hakaton_project).
 
+![3D production line and live KPIs](docs/screenshots/dashboard.png)
+
 ## Features
 - **3D production line** (three.js) — 7 machines with live status, temperature, vibration, load and output, updated every 1.5 s over WebSocket.
 - **KPI dashboard** — OEE (availability × performance × quality), defect rate, downtime, monthly output vs. targets (OEE ≥ 85%, defects ≤ 2%, downtime ≤ 60 min/day, ≥ 5,500 cars/month).
@@ -15,6 +17,8 @@ The case: help the Allur car plant in Kostanay see its production line in real t
 - **Reports** in PDF, Excel and Word; import of the plant's own `.docx` data file.
 - **Telegram bot** for reports and alerts (included, disabled by default).
 - 19 color palettes, light and dark themes, tuned to run on an ordinary office PC.
+
+![Downtime forecast and bottleneck](docs/screenshots/forecast.png)
 
 ## Architecture
 ```
